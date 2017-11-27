@@ -1,0 +1,56 @@
+@media (min-width: 571px) and (max-width: 824px){
+  [class*='col-']{
+    width: 100%;
+  }  
+  header{
+    margin: auto;
+  }
+  .rock1, .rock2, .rock3{
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 70%;
+  } 
+  section{
+    margin: auto;
+  }
+  .aboutRockContainer, .saluteYouContainer, .beRockContainer{
+    width: 80%;
+    margin: 10% auto;
+  }    
+  .aboutRock, .saluteYou, .beRock{
+    width: 90% ;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 570px){
+  [class*='col-']{
+    width: 100%;
+  } 
+  header{
+    margin: auto;
+  }
+  .pcView{
+    display: none;
+  }
+  .phoneView{
+    display: block;
+  }
+  .home img{
+    height: 100%;
+  }    
+  section{
+    margin: auto;    
+  }
+  .aboutRockContainer, .saluteYouContainer, .beRockContainer{
+    width: 80%;
+    margin: 15% auto;
+  }   
+  .rock1, .rock2, .rock3{
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 70%;
+  } 
+  .sbLink{
+    width:50% !important;    
+  }
+}

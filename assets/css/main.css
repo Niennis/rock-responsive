@@ -1,0 +1,132 @@
+body{
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+}
+
+.phoneView{
+  display: none;
+  background-color: #373c43;  
+}
+
+.pcView{
+  background-color: #373c43;
+}
+
+.sbLink{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10%;
+  width:30% !important;
+  padding: 12px 0px !important;
+  text-align: left;
+  line-height: 38px;
+}
+
+.bars{
+  width:10% !important;
+  padding: 12px 0px !important;
+  float: right !important;
+}
+
+.navBarContainer{
+  width: 60% !important;
+  vertical-align: middle;
+  text-align: right;
+}
+
+ul{
+  list-style-type: none;
+  font-weight: bold;
+  width: 100%;  
+}
+
+li{
+  display: inline-block;
+  line-height: 38px;
+  margin: 0px 5px;
+}
+
+a{
+  text-decoration: none;
+  color: lightgrey;  
+}
+
+section{
+  background-color: white;
+}
+
+button{
+  background-color: transparent;
+  padding: 4px 8px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  color: grey;  
+}
+
+.homeContainer{
+  width: 100%;
+}
+
+.home{
+  padding: 10% 0px !important;  
+  color:white;
+  height: 80%;   
+  overflow: hidden;  
+  background-image: url(../../assets/img/header.jpg);
+  background-color: rgb(46, 46, 46);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-position-y: center;
+  text-align: center;
+}
+
+.title, .subtitle{
+  width: 70%;
+  margin: auto !important;
+}
+
+.home img{
+  margin: -400px 0px 0px 0px; 
+  width: 100%;
+  opacity: 0.4;
+}
+
+h1{
+  font-size: 70px;
+  font-weight: normal; 
+}
+
+.home h2{
+  font-weight: normal;  
+  font-size: 40px;
+}
+
+.aboutRockContainer, .saluteYouContainer, .beRockContainer{
+  width: 80%;
+  margin: 5% auto;
+  vertical-align: middle;
+}
+
+.rock1, .rock2, .rock3{
+  border-radius: 50%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.aboutRock, .saluteYou, .beRock{
+  background-color: white;
+}
+
+section h2{
+  font-size: 50px;
+  font-weight: normal;
+}
+
+footer{
+  text-align: center;
+  background-color: #373c43;  
+  height: 18%;  
+  color: lightgray;   
+  padding-top: 25px;
+}
